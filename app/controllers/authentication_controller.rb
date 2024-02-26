@@ -13,7 +13,7 @@ class AuthenticationController < ApplicationController
     end
 
     def logout
-        # curl -X DELETE -H "Authorization: Bearer <TOKEN>" http://localhost:3000/auth/logout
-        render json: { message: 'Logout successful' }, status: :ok
-      end
+      # curl -X DELETE -H "Authorization: Bearer <TOKEN>" http://localhost:3000/auth/logout
+      render json: { message: 'Logout successful' }, status: :ok
+    end
 end
