@@ -5,4 +5,5 @@ Rails.application.routes.draw do
   delete '/auth/logout', to: 'authentication#logout'
 
   resources :clients
+  resources :items
 end
