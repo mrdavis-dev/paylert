@@ -1,7 +1,7 @@
 require 'oj'
 
 class ClientsController < ApplicationController
-    before_action :set_client, only: [:show, :edit, :update, :destroy]
+    before_action :set_client, only: [:show, :update, :destroy]
 
     def index
         @clients = @current_user.clients
