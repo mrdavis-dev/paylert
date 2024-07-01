@@ -22,4 +22,5 @@ class User < ApplicationRecord
     has_many :clients
     has_many :items
     has_many :contratos
+    has_many :pagos
 end
