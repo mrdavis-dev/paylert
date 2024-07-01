@@ -1,0 +1,26 @@
+# == Schema Information
+#
+# Table name: pagos
+#
+#  id          :bigint           not null, primary key
+#  idcliente   :integer
+#  pago        :decimal(, )
+#  metodopago  :string
+#  descripcion :string
+#  user_id     :bigint           not null
+#  created_at  :datetime         not null
+#  updated_at  :datetime         not null
+#  status      :string
+#
+
+one:
+  idcliente: 1
+  pago: 9.99
+  metodopago: MyString
+  user: one
+
+two:
+  idcliente: 1
+  pago: 9.99
+  metodopago: MyString
+  user: two
